@@ -14,13 +14,13 @@ public class GetController {
     @RequestMapping(value = "/getSomething",
             method = RequestMethod.GET,
             produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<?> printData(@RequestParam int inputData, @RequestParam String message, @RequestHeader String authToken) {
+    public ResponseEntity<?> printData(@RequestParam int inputData, @RequestHeader String authToken) {
         System.out.println("Retrieved data - " + inputData);
         System.out.println("Retrieved token - " + authToken);
         if (inputData == 0) {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
-        return new ResponseEntity<>(new SimpleDto(inputData, new MessageDto(message)), HttpStatus.OK);
+        return new ResponseEntity<>(new SimpleDto(inputData, new MessageDto("Default message")), HttpStatus.OK);
     }
 
 }
