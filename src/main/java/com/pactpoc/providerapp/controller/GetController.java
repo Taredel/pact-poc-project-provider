@@ -20,7 +20,7 @@ public class GetController {
         if (inputData == 0) {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
-        return new ResponseEntity<>(new SimpleDto(inputData, new MessageDto("This is a generic message with random number")), HttpStatus.OK);
+        return new ResponseEntity<>(new SimpleDto(inputData, new MessageDto("This is a generic message")), HttpStatus.OK);
     }
 
 }
