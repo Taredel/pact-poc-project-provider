@@ -26,9 +26,9 @@ jobs:
         run: |
           mvn verify
 
-      - name: Publish Pact Contracts
-        run: |
-          mvn pact:publish
+#      - name: Publish Pact Contracts
+#        run: |
+#          mvn pact:publish
 #      - name: Trigger Jenkins Build
 #          run: |
 #            curl -X POST "http://Taredel:password41localhost:9000/job/deployment_job_provider/build" --data-urlencode "delay=0sec"
