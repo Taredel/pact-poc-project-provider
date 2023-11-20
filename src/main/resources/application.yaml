@@ -1,6 +1,5 @@
 pactbroker:
-  host: localhost
-  port: "9292"
+  host: 9e9f-2a0b-6204-454c-1600-b0f1-9d40-1a50-37f5.ngrok-free.app
   auth:
     username: pact_username
     password: pact_password
