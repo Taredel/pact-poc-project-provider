@@ -1,5 +1,5 @@
 pactbroker:
-  host: ce1b-2a0b-6204-454c-1600-7153-bdab-1e56-f89c.ngrok-free.app
+  host: 9e9f-2a0b-6204-454c-1600-b0f1-9d40-1a50-37f5.ngrok-free.app
   auth:
     username: pact_username
     password: pact_password
