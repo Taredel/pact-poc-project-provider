@@ -1,5 +1,5 @@
 pactbroker:
-  host: e043-2a02-a319-c1e2-7200-00-25b.ngrok-free.app
+  host: qiana-tonal-leftwardly.ngrok-free.dev
   auth:
     username: pact_username
     password: pact_password
