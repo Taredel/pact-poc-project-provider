@@ -1,6 +1,6 @@
 pactbroker:
-  host: localhost
-  port: "9292"
+  # Set PACT_BROKER_URL=https://<ngrok domain> to verify against the public broker
+  url: ${PACT_BROKER_URL:http://localhost:9292}
   auth:
     username: pact_username
     password: pact_password
