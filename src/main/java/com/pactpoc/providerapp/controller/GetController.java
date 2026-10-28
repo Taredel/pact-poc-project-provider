@@ -14,7 +14,7 @@ public class GetController {
     @RequestMapping(value = "/getSomething",
             method = RequestMethod.GET,
             produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<?> printData(@RequestParam int inputData, @RequestHeader String authToken) {
+    public ResponseEntity<?> printData(@RequestParam String inputData, @RequestHeader String authToken) {
         System.out.println("Retrieved data - " + inputData);
         System.out.println("Retrieved token - " + authToken);
 //        if (inputData == 0) {

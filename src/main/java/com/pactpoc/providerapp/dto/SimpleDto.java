@@ -2,15 +2,15 @@ package com.pactpoc.providerapp.dto;
 
 public class SimpleDto {
 
-    private int simpleInteger;
+    private String simpleInteger;
     private MessageDto warningMessage;
 
-    public SimpleDto(int simpleInteger, MessageDto message) {
+    public SimpleDto(String simpleInteger, MessageDto message) {
         this.simpleInteger = simpleInteger;
         this.warningMessage = message;
     }
 
-    public int getSimpleInteger() {
+    public String getSimpleInteger() {
         return simpleInteger;
     }
 
