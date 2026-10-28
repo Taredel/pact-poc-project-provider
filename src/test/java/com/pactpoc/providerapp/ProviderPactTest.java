@@ -36,6 +36,7 @@ public class ProviderPactTest {
     @ExtendWith(PactVerificationSpringProvider.class)
     void pactVerificationTestTemplate(PactVerificationContext context, HttpRequest request) {
 //        String token = getAccessToken(username, password);
+        //
         request.addHeader("authToken", "1234");
         context.verifyInteraction();
     }
