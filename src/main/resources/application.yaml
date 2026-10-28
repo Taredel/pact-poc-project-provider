@@ -1,6 +1,6 @@
 pactbroker:
   # Set PACT_BROKER_URL=https://<ngrok domain> to verify against the public broker
-  url: ${PACT_BROKER_URL:http://localhost:9292}
+  url: https://qiana-tonal-leftwardly.ngrok-free.dev
   auth:
     username: pact_username
     password: pact_password
